@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.640" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-05T04:17:43" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login Route" timestamp="2023-12-05T04:17:43" tests="3" file="C:\Users\USER\OneDrive - FAST National University\Desktop\AuthInMern\server\tests\login.test.js" time="4.369" failures="0">
+    <testcase name="Login Route should log in a user with valid credentials" time="4.046" classname="should log in a user with valid credentials">
+    </testcase>
+    <testcase name="Login Route should return 400 with invalid email and password format" time="0.009" classname="should return 400 with invalid email and password format">
+    </testcase>
+    <testcase name="Login Route should return 401 with invalid credentials" time="0.311" classname="should return 401 with invalid credentials">
+    </testcase>
+  </testsuite>
+  <testsuite name="Register Route" timestamp="2023-12-05T04:17:48" tests="2" file="C:\Users\USER\OneDrive - FAST National University\Desktop\AuthInMern\server\tests\register.test.js" time="0.269" failures="0">
+    <testcase name="Register Route should return 400 with invalid email format" time="0.027" classname="should return 400 with invalid email format">
+    </testcase>
+    <testcase name="Register Route should return 409 if user already exists" time="0.241" classname="should return 409 if user already exists">
+    </testcase>
+  </testsuite>
+</testsuites>
